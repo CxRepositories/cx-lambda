@@ -1,8 +1,8 @@
-##CodePipeline Lambda Function for Integration with Checkmarx SAST
+## CodePipeline Lambda Function for Integration with Checkmarx SAST
 * Automated project creation / update
 * Scan Execution
 
-Credit to the following repository for base REST API implementation for Checkmarx. 
+## Credit 
 https://github.com/binqsoft/CxRestPy.git
 
 ### Cloudformation Template
