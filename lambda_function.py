@@ -105,7 +105,7 @@ def lambda_handler(event, context):
             cx_config['preset'] = os.environ['CX_PRESET']
         if environ.get('CX_CONFIGURATION') is not None:
             cx_config['configuration'] = os.environ['CX_CONFIGURATION']
-        if environ.get('CX_PRESET') is not None:
+        if environ.get('CX_TEAM') is not None:
             cx_config['team'] = os.environ['CX_TEAM']
 
         # login to checkmarx
