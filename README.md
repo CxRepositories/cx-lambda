@@ -57,7 +57,7 @@ AWS UI:
     * Parameters :
         * CxPassword : /Checkmarx/checkmarxPassword - it will link to SSM Stored Parameter
         * CxPreset : Checkmarx Default
-        * CxTeam : \CxServer\SP\Checkmarx\Automation - it should exists in Checkmarx Server
+        * CxTeam : \CxServer\SP\Checkmarx\Automation - it should exists in Checkmarx Server. For CxSAST version 9.x reverse the slash so that it's /CxServer/SP/Checkmarx/Automation.
         * CxUrl : /Checkmarx/checkmarxURL - it will link to SSM Stored Parameter
         * CxUser : /Checkmarx/checkmarxUser - it will link to SSM Stored Paramete
         * KMSKeyAlias : aws/ssm
